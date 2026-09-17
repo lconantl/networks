@@ -9,5 +9,5 @@
 
 **Список лабораторных работ:**
 
-1. \[Wireshark введение](labs/1-lab.md)
+1. [Wireshark введение](labs/1-lab.md)
 
