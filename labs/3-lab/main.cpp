@@ -1,17 +1,17 @@
-#include "utils/console/ConsoleEncoding.hpp"
+#include "utils/Encoding.hpp"
+#include <cstdlib>
 #include <iostream>
 
 int main()
 {
+	Encoding encoding;
+
 	try
 	{
-		ConsoleEncoding encoding;
-		std::cout << "SMTP-mailer" << std::endl;
 	}
-	catch (std::exception& exception)
+	catch (const std::exception& exception)
 	{
-		std::cerr << "[error]\t" << exception.what() << std::endl;
-
+		std::cout << "[error]\t" << exception.what() << std::endl;
 		return EXIT_FAILURE;
 	}
 

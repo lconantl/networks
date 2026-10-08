@@ -58,7 +58,7 @@
  *
  * ИСКЛЮЧЕНИЯ
  *
- *   cli::UsageError       ошибка пользователя: неизвестный флаг, значение у флага,
+ *   cli::usage_error       ошибка пользователя: неизвестный флаг, значение у флага,
  *                         конфликт флагов. Принято печатать справку и возвращать EXIT_CODE.
  *   std::logic_error      ошибка программиста: дубликат флага, конфликт для
  *   std::invalid_argument незарегистрированного флага, некорректное имя, пустая команда.
@@ -80,12 +80,12 @@
 
 namespace cli
 {
-class UsageError : public std::runtime_error
+class usage_error : public std::runtime_error
 {
 public:
 	static constexpr int EXIT_CODE = 2;
 
-	explicit UsageError(const std::string& message)
+	explicit usage_error(const std::string& message)
 		: std::runtime_error(message)
 	{
 	}
@@ -229,7 +229,7 @@ inline void AssertIsKnownFlag(const std::size_t index, const std::string& flag)
 {
 	if (index == NotFound)
 	{
-		throw UsageError("Неизвестный флаг: " + flag);
+		throw usage_error("Неизвестный флаг: " + flag);
 	}
 }
 
@@ -237,7 +237,7 @@ inline void AssertHasNoValue(const std::string_view name)
 {
 	if (HasValueSeparator(name))
 	{
-		throw UsageError("Флаг --" + std::string(StripValue(name)) + " не принимает значение");
+		throw usage_error("Флаг --" + std::string(StripValue(name)) + " не принимает значение");
 	}
 }
 
@@ -367,7 +367,7 @@ void AssertHasNoConflict(
 {
 	if (triggered[conflict.first] && triggered[conflict.second])
 	{
-		throw UsageError("Флаги --" + bindings[conflict.first].spec.longName + " и --"
+		throw usage_error("Флаги --" + bindings[conflict.first].spec.longName + " и --"
 			+ bindings[conflict.second].spec.longName + " нельзя использовать одновременно");
 	}
 }
