@@ -1,1 +1,5 @@
 .clang-format
+cmake-build-debug-win
+cmake-build-debug-wsl
+cmake-build-release-win
+cmake-build-release-wsl

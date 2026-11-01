@@ -1,4 +1,11 @@
-cmake-build-debug-win
-cmake-build-release-win
-cmake-build-debug-wsl
-cmake-build-release-wsl
+/cmake-build-*/
+/build*/
+/out/
+.idea
+.vs
+*.exe
+/smtp-client-wsl
+inbox/
+*.eml
+*.log
+*.pem
