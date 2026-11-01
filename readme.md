@@ -8,3 +8,4 @@
 2. [Вторая лабораторная](labs/2-lab.md)
 3. [Третья лабораторная](labs/3-lab/readme.md) - SMTP
 4. [Четвертая лабораторная](labs/4-lab/readme.md) - Webserver
+5. [Пятая лабораторная](labs/5-lab/readme.md) - Socket
