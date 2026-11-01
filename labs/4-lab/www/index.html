@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Лабораторная работа №5 — веб-сервер</title>
+	<link rel="stylesheet" href="/style.css">
+	<link rel="icon" href="/images/logo.png">
+</head>
+<body>
+	<header>
+		<img class="logo" src="/images/logo.png" alt="Логотип" width="64" height="64">
+		<div>
+			<h1>Веб-сервер на C++</h1>
+			<p class="subtitle">Лабораторная работа №5 · сокеты, HTTP, epoll</p>
+		</div>
+	</header>
+
+	<main>
+		<section class="card">
+			<h2>Это работает</h2>
+			<p>Страница, стили и картинки ниже отданы сервером через <code>socket()</code>, <code>accept()</code>,
+				<code>read()</code> и <code>write()</code>. Тип каждого файла определён по расширению.</p>
+			<img class="photo" src="/images/photo.jpg" alt="Тестовое изображение JPEG">
+		</section>
+
+		<section class="card">
+			<h2>Проверьте сами</h2>
+			<ul>
+				<li><a href="/about.html">Страница «О сервере»</a> — 200 OK, text/html</li>
+				<li><a href="/style.css">style.css</a> — text/css</li>
+				<li><a href="/images/logo.png">logo.png</a> — image/png</li>
+				<li><a href="/images/photo.jpg">photo.jpg</a> — image/jpeg</li>
+				<li><a href="/images">/images</a> — 301, переадресация на /images/</li>
+				<li><a href="/missing.html">missing.html</a> — 404 File Not Found</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>lab5-webserver · Connection: close · HTTP/1.1</footer>
+</body>
+</html>

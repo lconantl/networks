@@ -1,0 +1,6 @@
+build*/
+cmake-build-*/
+.idea
+.vs
+/webserver
+www/big-test.bin

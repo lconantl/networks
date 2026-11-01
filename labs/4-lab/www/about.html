@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>О сервере</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+	<header>
+		<img class="logo" src="/images/logo.png" alt="Логотип" width="64" height="64">
+		<div>
+			<h1>О сервере</h1>
+			<p class="subtitle"><a href="/">← на главную</a></p>
+		</div>
+	</header>
+
+	<main>
+		<section class="card">
+			<h2>Три режима</h2>
+			<ul>
+				<li><b>Последовательный</b> — клиенты обслуживаются по очереди.</li>
+				<li><b>Многопоточный</b> — на каждое соединение свой поток.</li>
+				<li><b>Асинхронный</b> — один поток и epoll, тысячи соединений.</li>
+			</ul>
+		</section>
+
+		<section class="card">
+			<h2>Что умеет</h2>
+			<ul>
+				<li>GET и HEAD, ответы 200, 301, 400, 403, 404, 405, 408, 431, 503, 505</li>
+				<li>Content-Type по расширению: html, css, js, png, jpeg, gif, svg, pdf…</li>
+				<li>Защита от выхода из папки сайта через <code>../</code> и <code>%2e%2e</code></li>
+				<li>Потоковая отдача файлов любого размера</li>
+				<li>Корректная остановка по Ctrl+C (SIGINT)</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>lab5-webserver</footer>
+</body>
+</html>
