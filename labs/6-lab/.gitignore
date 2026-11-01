@@ -1,0 +1,4 @@
+/build/
+/dns_resolver
+/.dns_resolver.cache
+/.dns_resolver.cache.tmp
