@@ -1,0 +1,21 @@
+РЕЗУЛЬТАТЫ РЕАЛЬНЫХ ПРОВЕРОК НА LINUX/LOCALHOST
+
+small: 725 байт
+  input  SHA-256: 39cf29582109c8e93bee778c4112201b90f2a3bb51c945d6bf168259eef3d30c
+  output SHA-256: 39cf29582109c8e93bee778c4112201b90f2a3bb51c945d6bf168259eef3d30c
+  cmp: совпадают; отправитель: код 0; получатель: код 0
+
+large: 1048576 байт
+  input  SHA-256: e8f13cee87e82a0fe9c7e3fda3134442afc5fc199fcfe5999bb17b54574a3626
+  output SHA-256: e8f13cee87e82a0fe9c7e3fda3134442afc5fc199fcfe5999bb17b54574a3626
+  cmp: совпадают; отправитель: код 0; получатель: код 0
+
+loss: 24576 байт
+  input  SHA-256: b2de84b3c100548386e4b78eed7ae55c492fdc346d494ef1992c35e77d99e92d
+  output SHA-256: b2de84b3c100548386e4b78eed7ae55c492fdc346d494ef1992c35e77d99e92d
+  cmp: совпадают; отправитель: код 0; получатель: код 0
+
+empty: 0 байт
+  input  SHA-256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  output SHA-256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  cmp: совпадают; отправитель: код 0; получатель: код 0

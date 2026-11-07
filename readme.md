@@ -10,3 +10,4 @@
 4. [Четвертая лабораторная](labs/4-lab/readme.md) - Webserver
 5. [Пятая лабораторная](labs/5-lab/readme.md) - Socket
 6. [Шестая лабораторная](labs/6-lab/readme.md) - DNS-resolver
+7. [Седьмая лабораторная](labs/7-lab/readme.md) - RDTP

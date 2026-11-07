@@ -1,0 +1,450 @@
+$ /mnt/data/rdtp_build/rdt_receiver 37653 /mnt/data/rdtp_loss_received.bin --linger-ms 800 --loss 0.20 --delay-ms 20 --seed 99 -d
+Получатель: ожидание на UDP-порту 37653
+Получен START: 24576 байт, блоков 24
+[DEBUG] Отправка ACK №0
+[DEBUG] Задержка ACK №0 на 10 мс
+[DEBUG] Получен DATA №7
+[DEBUG] Отклонён DATA №7, ожидается №1
+[DEBUG] Отправка ACK №0
+[DEBUG] Задержка ACK №0 на 15 мс
+[DEBUG] Получен DATA №2
+[DEBUG] Отклонён DATA №2, ожидается №1
+[DEBUG] Отправка ACK №0
+[DEBUG] Задержка ACK №0 на 16 мс
+[DEBUG] Получен DATA №5
+[DEBUG] Отклонён DATA №5, ожидается №1
+[DEBUG] Отправка ACK №0
+[DEBUG] Задержка ACK №0 на 20 мс
+[DEBUG] Получен DATA №1
+[DEBUG] Отправка ACK №1
+[DEBUG] Получен DATA №8
+[DEBUG] Отклонён DATA №8, ожидается №2
+[DEBUG] Отправка ACK №1
+[DEBUG] Задержка ACK №1 на 17 мс
+[DEBUG] Получен DATA №9
+[DEBUG] Отклонён DATA №9, ожидается №2
+[DEBUG] Отправка ACK №1
+[DEBUG] Задержка ACK №1 на 16 мс
+[DEBUG] Получен DATA №4
+[DEBUG] Отклонён DATA №4, ожидается №2
+[DEBUG] Отправка ACK №1
+[DEBUG] Задержка ACK №1 на 13 мс
+[DEBUG] Получен DATA №7
+[DEBUG] Отклонён DATA №7, ожидается №2
+[DEBUG] Отправка ACK №1
+[DEBUG] Задержка ACK №1 на 10 мс
+[DEBUG] Получен DATA №9
+[DEBUG] Отклонён DATA №9, ожидается №2
+[DEBUG] Отправка ACK №1
+[DEBUG] Задержка ACK №1 на 12 мс
+[DEBUG] Получен DATA №2
+[DEBUG] Отправка ACK №2
+[DEBUG] Задержка ACK №2 на 20 мс
+[DEBUG] Получен DATA №4
+[DEBUG] Отклонён DATA №4, ожидается №3
+[DEBUG] Отправка ACK №2
+[DEBUG] Задержка ACK №2 на 13 мс
+[DEBUG] Получен DATA №5
+[DEBUG] Отклонён DATA №5, ожидается №3
+[DEBUG] Отправка ACK №2
+[DEBUG] Задержка ACK №2 на 17 мс
+[DEBUG] Получен DATA №3
+[DEBUG] Отправка ACK №3
+[DEBUG] Задержка ACK №3 на 8 мс
+[DEBUG] Получен DATA №6
+[DEBUG] Отклонён DATA №6, ожидается №4
+[DEBUG] Отправка ACK №3
+[DEBUG] Задержка ACK №3 на 6 мс
+[DEBUG] Получен DATA №9
+[DEBUG] Отклонён DATA №9, ожидается №4
+[DEBUG] Отправка ACK №3
+[DEBUG] Задержка ACK №3 на 5 мс
+[DEBUG] Получен DATA №11
+[DEBUG] Отклонён DATA №11, ожидается №4
+[DEBUG] Отправка ACK №3
+[DEBUG] Задержка ACK №3 на 4 мс
+[DEBUG] Получен DATA №10
+[DEBUG] Отклонён DATA №10, ожидается №4
+[DEBUG] Отправка ACK №3
+[DEBUG] Задержка ACK №3 на 12 мс
+[DEBUG] Получен DATA №6
+[DEBUG] Отклонён DATA №6, ожидается №4
+[DEBUG] Отправка ACK №3
+[DEBUG] Симулирована потеря ACK №3
+[DEBUG] Получен DATA №8
+[DEBUG] Отклонён DATA №8, ожидается №4
+[DEBUG] Отправка ACK №3
+[DEBUG] Задержка ACK №3 на 2 мс
+[DEBUG] Получен DATA №10
+[DEBUG] Отклонён DATA №10, ожидается №4
+[DEBUG] Отправка ACK №3
+[DEBUG] Симулирована потеря ACK №3
+[DEBUG] Получен DATA №11
+[DEBUG] Отклонён DATA №11, ожидается №4
+[DEBUG] Отправка ACK №3
+[DEBUG] Задержка ACK №3 на 11 мс
+[DEBUG] Получен DATA №4
+[DEBUG] Отправка ACK №4
+[DEBUG] Симулирована потеря ACK №4
+[DEBUG] Получен DATA №5
+[DEBUG] Отправка ACK №5
+[DEBUG] Задержка ACK №5 на 4 мс
+[DEBUG] Получен DATA №12
+[DEBUG] Отклонён DATA №12, ожидается №6
+[DEBUG] Отправка ACK №5
+[DEBUG] Симулирована потеря ACK №5
+[DEBUG] Получен DATA №13
+[DEBUG] Отклонён DATA №13, ожидается №6
+[DEBUG] Отправка ACK №5
+[DEBUG] Задержка ACK №5 на 1 мс
+[DEBUG] Получен DATA №13
+[DEBUG] Отклонён DATA №13, ожидается №6
+[DEBUG] Отправка ACK №5
+[DEBUG] Симулирована потеря ACK №5
+[DEBUG] Получен DATA №6
+[DEBUG] Отправка ACK №6
+[DEBUG] Задержка ACK №6 на 19 мс
+[DEBUG] Получен DATA №7
+[DEBUG] Отправка ACK №7
+[DEBUG] Задержка ACK №7 на 6 мс
+[DEBUG] Получен DATA №8
+[DEBUG] Отправка ACK №8
+[DEBUG] Симулирована потеря ACK №8
+[DEBUG] Получен DATA №12
+[DEBUG] Отклонён DATA №12, ожидается №9
+[DEBUG] Отправка ACK №8
+[DEBUG] Задержка ACK №8 на 13 мс
+[DEBUG] Получен DATA №15
+[DEBUG] Отклонён DATA №15, ожидается №9
+[DEBUG] Отправка ACK №8
+[DEBUG] Задержка ACK №8 на 13 мс
+[DEBUG] Получен DATA №14
+[DEBUG] Отклонён DATA №14, ожидается №9
+[DEBUG] Отправка ACK №8
+[DEBUG] Задержка ACK №8 на 5 мс
+[DEBUG] Получен DATA №16
+[DEBUG] Отклонён DATA №16, ожидается №9
+[DEBUG] Отправка ACK №8
+[DEBUG] Задержка ACK №8 на 20 мс
+[DEBUG] Получен DATA №11
+[DEBUG] Отклонён DATA №11, ожидается №9
+[DEBUG] Отправка ACK №8
+[DEBUG] Симулирована потеря ACK №8
+[DEBUG] Получен DATA №12
+[DEBUG] Отклонён DATA №12, ожидается №9
+[DEBUG] Отправка ACK №8
+[DEBUG] Задержка ACK №8 на 11 мс
+[DEBUG] Получен DATA №14
+[DEBUG] Отклонён DATA №14, ожидается №9
+[DEBUG] Отправка ACK №8
+[DEBUG] Задержка ACK №8 на 13 мс
+[DEBUG] Получен DATA №9
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 19 мс
+[DEBUG] Получен DATA №15
+[DEBUG] Отклонён DATA №15, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 18 мс
+[DEBUG] Получен DATA №16
+[DEBUG] Отклонён DATA №16, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 9 мс
+[DEBUG] Получен DATA №17
+[DEBUG] Отклонён DATA №17, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 8 мс
+[DEBUG] Получен DATA №12
+[DEBUG] Отклонён DATA №12, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Симулирована потеря ACK №9
+[DEBUG] Получен DATA №16
+[DEBUG] Отклонён DATA №16, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 8 мс
+[DEBUG] Получен DATA №17
+[DEBUG] Отклонён DATA №17, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 5 мс
+[DEBUG] Получен DATA №11
+[DEBUG] Отклонён DATA №11, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 14 мс
+[DEBUG] Получен DATA №14
+[DEBUG] Отклонён DATA №14, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 16 мс
+[DEBUG] Получен DATA №15
+[DEBUG] Отклонён DATA №15, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 6 мс
+[DEBUG] Получен DATA №13
+[DEBUG] Отклонён DATA №13, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Симулирована потеря ACK №9
+[DEBUG] Получен DATA №15
+[DEBUG] Отклонён DATA №15, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 1 мс
+[DEBUG] Получен DATA №11
+[DEBUG] Отклонён DATA №11, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 20 мс
+[DEBUG] Получен DATA №12
+[DEBUG] Отклонён DATA №12, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Симулирована потеря ACK №9
+[DEBUG] Получен DATA №11
+[DEBUG] Отклонён DATA №11, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 18 мс
+[DEBUG] Получен DATA №12
+[DEBUG] Отклонён DATA №12, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 18 мс
+[DEBUG] Получен DATA №13
+[DEBUG] Отклонён DATA №13, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 1 мс
+[DEBUG] Получен DATA №14
+[DEBUG] Отклонён DATA №14, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Симулирована потеря ACK №9
+[DEBUG] Получен DATA №15
+[DEBUG] Отклонён DATA №15, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Симулирована потеря ACK №9
+[DEBUG] Получен DATA №16
+[DEBUG] Отклонён DATA №16, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Симулирована потеря ACK №9
+[DEBUG] Получен DATA №17
+[DEBUG] Отклонён DATA №17, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 11 мс
+[DEBUG] Получен DATA №11
+[DEBUG] Отклонён DATA №11, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 8 мс
+[DEBUG] Получен DATA №17
+[DEBUG] Отклонён DATA №17, ожидается №10
+[DEBUG] Отправка ACK №9
+[DEBUG] Задержка ACK №9 на 17 мс
+[DEBUG] Получен DATA №10
+[DEBUG] Отправка ACK №10
+[DEBUG] Задержка ACK №10 на 8 мс
+[DEBUG] Получен DATA №13
+[DEBUG] Отклонён DATA №13, ожидается №11
+[DEBUG] Отправка ACK №10
+[DEBUG] Задержка ACK №10 на 12 мс
+[DEBUG] Получен DATA №15
+[DEBUG] Отклонён DATA №15, ожидается №11
+[DEBUG] Отправка ACK №10
+[DEBUG] Задержка ACK №10 на 11 мс
+[DEBUG] Получен DATA №16
+[DEBUG] Отклонён DATA №16, ожидается №11
+[DEBUG] Отправка ACK №10
+[DEBUG] Задержка ACK №10 на 9 мс
+[DEBUG] Получен DATA №18
+[DEBUG] Отклонён DATA №18, ожидается №11
+[DEBUG] Отправка ACK №10
+[DEBUG] Задержка ACK №10 на 6 мс
+[DEBUG] Получен DATA №16
+[DEBUG] Отклонён DATA №16, ожидается №11
+[DEBUG] Отправка ACK №10
+[DEBUG] Задержка ACK №10 на 2 мс
+[DEBUG] Получен DATA №18
+[DEBUG] Отклонён DATA №18, ожидается №11
+[DEBUG] Отправка ACK №10
+[DEBUG] Задержка ACK №10 на 17 мс
+[DEBUG] Получен DATA №11
+[DEBUG] Отправка ACK №11
+[DEBUG] Задержка ACK №11 на 4 мс
+[DEBUG] Получен DATA №13
+[DEBUG] Отклонён DATA №13, ожидается №12
+[DEBUG] Отправка ACK №11
+[DEBUG] Задержка ACK №11 на 4 мс
+[DEBUG] Получен DATA №15
+[DEBUG] Отклонён DATA №15, ожидается №12
+[DEBUG] Отправка ACK №11
+[DEBUG] Симулирована потеря ACK №11
+[DEBUG] Получен DATA №12
+[DEBUG] Отправка ACK №12
+[DEBUG] Задержка ACK №12 на 13 мс
+[DEBUG] Получен DATA №13
+[DEBUG] Отправка ACK №13
+[DEBUG] Задержка ACK №13 на 5 мс
+[DEBUG] Получен DATA №17
+[DEBUG] Отклонён DATA №17, ожидается №14
+[DEBUG] Отправка ACK №13
+[DEBUG] Задержка ACK №13 на 11 мс
+[DEBUG] Получен DATA №15
+[DEBUG] Отклонён DATA №15, ожидается №14
+[DEBUG] Отправка ACK №13
+[DEBUG] Задержка ACK №13 на 10 мс
+[DEBUG] Получен DATA №16
+[DEBUG] Отклонён DATA №16, ожидается №14
+[DEBUG] Отправка ACK №13
+[DEBUG] Задержка ACK №13 на 2 мс
+[DEBUG] Получен DATA №18
+[DEBUG] Отклонён DATA №18, ожидается №14
+[DEBUG] Отправка ACK №13
+[DEBUG] Задержка ACK №13 на 8 мс
+[DEBUG] Получен DATA №19
+[DEBUG] Отклонён DATA №19, ожидается №14
+[DEBUG] Отправка ACK №13
+[DEBUG] Задержка ACK №13 на 10 мс
+[DEBUG] Получен DATA №20
+[DEBUG] Отклонён DATA №20, ожидается №14
+[DEBUG] Отправка ACK №13
+[DEBUG] Задержка ACK №13 на 18 мс
+[DEBUG] Получен DATA №16
+[DEBUG] Отклонён DATA №16, ожидается №14
+[DEBUG] Отправка ACK №13
+[DEBUG] Задержка ACK №13 на 9 мс
+[DEBUG] Получен DATA №19
+[DEBUG] Отклонён DATA №19, ожидается №14
+[DEBUG] Отправка ACK №13
+[DEBUG] Задержка ACK №13 на 20 мс
+[DEBUG] Получен DATA №21
+[DEBUG] Отклонён DATA №21, ожидается №14
+[DEBUG] Отправка ACK №13
+[DEBUG] Задержка ACK №13 на 15 мс
+[DEBUG] Получен DATA №14
+[DEBUG] Отправка ACK №14
+[DEBUG] Задержка ACK №14 на 1 мс
+[DEBUG] Получен DATA №15
+[DEBUG] Отправка ACK №15
+[DEBUG] Задержка ACK №15 на 18 мс
+[DEBUG] Получен DATA №17
+[DEBUG] Отклонён DATA №17, ожидается №16
+[DEBUG] Отправка ACK №15
+[DEBUG] Симулирована потеря ACK №15
+[DEBUG] Получен DATA №18
+[DEBUG] Отклонён DATA №18, ожидается №16
+[DEBUG] Отправка ACK №15
+[DEBUG] Задержка ACK №15 на 14 мс
+[DEBUG] Получен DATA №20
+[DEBUG] Отклонён DATA №20, ожидается №16
+[DEBUG] Отправка ACK №15
+[DEBUG] Задержка ACK №15 на 13 мс
+[DEBUG] Получен DATA №22
+[DEBUG] Отклонён DATA №22, ожидается №16
+[DEBUG] Отправка ACK №15
+[DEBUG] Задержка ACK №15 на 1 мс
+[DEBUG] Получен DATA №23
+[DEBUG] Отклонён DATA №23, ожидается №16
+[DEBUG] Отправка ACK №15
+[DEBUG] Симулирована потеря ACK №15
+[DEBUG] Получен DATA №18
+[DEBUG] Отклонён DATA №18, ожидается №16
+[DEBUG] Отправка ACK №15
+[DEBUG] Задержка ACK №15 на 11 мс
+[DEBUG] Получен DATA №20
+[DEBUG] Отклонён DATA №20, ожидается №16
+[DEBUG] Отправка ACK №15
+[DEBUG] Задержка ACK №15 на 4 мс
+[DEBUG] Получен DATA №17
+[DEBUG] Отклонён DATA №17, ожидается №16
+[DEBUG] Отправка ACK №15
+[DEBUG] Симулирована потеря ACK №15
+[DEBUG] Получен DATA №19
+[DEBUG] Отклонён DATA №19, ожидается №16
+[DEBUG] Отправка ACK №15
+[DEBUG] Задержка ACK №15 на 8 мс
+[DEBUG] Получен DATA №16
+[DEBUG] Отправка ACK №16
+[DEBUG] Задержка ACK №16 на 12 мс
+[DEBUG] Получен DATA №21
+[DEBUG] Отклонён DATA №21, ожидается №17
+[DEBUG] Отправка ACK №16
+[DEBUG] Задержка ACK №16 на 12 мс
+[DEBUG] Получен DATA №22
+[DEBUG] Отклонён DATA №22, ожидается №17
+[DEBUG] Отправка ACK №16
+[DEBUG] Задержка ACK №16 на 20 мс
+[DEBUG] Получен DATA №24
+[DEBUG] Отклонён DATA №24, ожидается №17
+[DEBUG] Отправка ACK №16
+[DEBUG] Задержка ACK №16 на 4 мс
+[DEBUG] Получен DATA №17
+[DEBUG] Отправка ACK №17
+[DEBUG] Задержка ACK №17 на 13 мс
+[DEBUG] Получен DATA №19
+[DEBUG] Отклонён DATA №19, ожидается №18
+[DEBUG] Отправка ACK №17
+[DEBUG] Задержка ACK №17 на 13 мс
+[DEBUG] Получен DATA №20
+[DEBUG] Отклонён DATA №20, ожидается №18
+[DEBUG] Отправка ACK №17
+[DEBUG] Симулирована потеря ACK №17
+[DEBUG] Получен DATA №21
+[DEBUG] Отклонён DATA №21, ожидается №18
+[DEBUG] Отправка ACK №17
+[DEBUG] Задержка ACK №17 на 6 мс
+[DEBUG] Получен DATA №22
+[DEBUG] Отклонён DATA №22, ожидается №18
+[DEBUG] Отправка ACK №17
+[DEBUG] Задержка ACK №17 на 18 мс
+[DEBUG] Получен DATA №23
+[DEBUG] Отклонён DATA №23, ожидается №18
+[DEBUG] Отправка ACK №17
+[DEBUG] Получен DATA №24
+[DEBUG] Отклонён DATA №24, ожидается №18
+[DEBUG] Отправка ACK №17
+[DEBUG] Симулирована потеря ACK №17
+[DEBUG] Получен DATA №22
+[DEBUG] Отклонён DATA №22, ожидается №18
+[DEBUG] Отправка ACK №17
+[DEBUG] Задержка ACK №17 на 3 мс
+[DEBUG] Получен DATA №18
+[DEBUG] Отправка ACK №18
+[DEBUG] Задержка ACK №18 на 8 мс
+[DEBUG] Получен DATA №19
+[DEBUG] Отправка ACK №19
+[DEBUG] Задержка ACK №19 на 16 мс
+[DEBUG] Получен DATA №20
+[DEBUG] Отправка ACK №20
+[DEBUG] Симулирована потеря ACK №20
+[DEBUG] Получен DATA №23
+[DEBUG] Отклонён DATA №23, ожидается №21
+[DEBUG] Отправка ACK №20
+[DEBUG] Симулирована потеря ACK №20
+[DEBUG] Получен DATA №24
+[DEBUG] Отклонён DATA №24, ожидается №21
+[DEBUG] Отправка ACK №20
+[DEBUG] Задержка ACK №20 на 16 мс
+[DEBUG] Получен DATA №22
+[DEBUG] Отклонён DATA №22, ожидается №21
+[DEBUG] Отправка ACK №20
+[DEBUG] Задержка ACK №20 на 15 мс
+[DEBUG] Получен DATA №21
+[DEBUG] Отправка ACK №21
+[DEBUG] Задержка ACK №21 на 12 мс
+[DEBUG] Получен DATA №24
+[DEBUG] Отклонён DATA №24, ожидается №22
+[DEBUG] Отправка ACK №21
+[DEBUG] Задержка ACK №21 на 8 мс
+[DEBUG] Получен DATA №22
+[DEBUG] Отправка ACK №22
+[DEBUG] Задержка ACK №22 на 18 мс
+[DEBUG] Получен DATA №24
+[DEBUG] Отклонён DATA №24, ожидается №23
+[DEBUG] Отправка ACK №22
+[DEBUG] Задержка ACK №22 на 13 мс
+[DEBUG] Получен DATA №23
+[DEBUG] Отправка ACK №23
+[DEBUG] Задержка ACK №23 на 18 мс
+[DEBUG] Получен DATA №24
+[DEBUG] Отправка ACK №24
+[DEBUG] Симулирована потеря ACK №24
+[DEBUG] Получен DATA №24
+[DEBUG] Отклонён DATA №24, ожидается №25
+[DEBUG] Отправка ACK №24
+[DEBUG] Задержка ACK №24 на 4 мс
+[DEBUG] Получен FIN №25
+[DEBUG] Отправка FIN-ACK №25
+[DEBUG] Симулирована потеря FIN-ACK №25
+Файл получен: 24576 байт; 2.86 с; 0.01 МиБ/с; потери ACK=19.49% (23/118); вне порядка/повторы=92; повреждённые=0
+[DEBUG] Повторно получен FIN №25
+[DEBUG] Отправка FIN-ACK №25
+[DEBUG] Задержка FIN-ACK №25 на 9 мс

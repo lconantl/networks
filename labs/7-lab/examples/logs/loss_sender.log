@@ -1,0 +1,569 @@
+$ /mnt/data/rdtp_build/rdt_sender 127.0.0.1 37653 examples/loss_input.bin --loss 0.20 --delay-ms 20 --window 8 --timeout-ms 120 --seed 42 -d
+Отправитель: /mnt/data/rdtp_submission/7-lab/examples/loss_input.bin, размер 24576 байт, пакетов 24
+[DEBUG] Отправка START №0
+[DEBUG] Задержка START №0 на 19 мс
+[DEBUG] Получен ACK №0
+[DEBUG] Отправка DATA №1
+[DEBUG] Задержка DATA №1 на 16 мс
+[DEBUG] Отправка DATA №2
+[DEBUG] Задержка DATA №2 на 3 мс
+[DEBUG] Отправка DATA №3
+[DEBUG] Симулирована потеря DATA №3
+[DEBUG] Отправка DATA №4
+[DEBUG] Симулирована потеря DATA №4
+[DEBUG] Отправка DATA №5
+[DEBUG] Задержка DATA №5 на 7 мс
+[DEBUG] Отправка DATA №6
+[DEBUG] Симулирована потеря DATA №6
+[DEBUG] Отправка DATA №7
+[DEBUG] Отправка DATA №8
+[DEBUG] Задержка DATA №8 на 15 мс
+[DEBUG] Получен ACK №0
+[DEBUG] Получен ACK №1
+Прогресс: 4% (1024/24576 байт)
+[DEBUG] Отправка DATA №9
+[DEBUG] Задержка DATA №9 на 4 мс
+[DEBUG] Получен ACK №0
+[DEBUG] Получен ACK №0
+[DEBUG] Получен ACK №1
+[DEBUG] Получен ACK №1
+[DEBUG] Тайм-аут на пакете №2
+[DEBUG] Повторная передача DATA №2
+[DEBUG] Отправка DATA №2
+[DEBUG] Симулирована потеря DATA №2
+[DEBUG] Повторная передача DATA №3
+[DEBUG] Отправка DATA №3
+[DEBUG] Симулирована потеря DATA №3
+[DEBUG] Повторная передача DATA №4
+[DEBUG] Отправка DATA №4
+[DEBUG] Задержка DATA №4 на 12 мс
+[DEBUG] Повторная передача DATA №5
+[DEBUG] Отправка DATA №5
+[DEBUG] Симулирована потеря DATA №5
+[DEBUG] Повторная передача DATA №6
+[DEBUG] Отправка DATA №6
+[DEBUG] Симулирована потеря DATA №6
+[DEBUG] Повторная передача DATA №7
+[DEBUG] Отправка DATA №7
+[DEBUG] Задержка DATA №7 на 12 мс
+[DEBUG] Повторная передача DATA №8
+[DEBUG] Отправка DATA №8
+[DEBUG] Симулирована потеря DATA №8
+[DEBUG] Повторная передача DATA №9
+[DEBUG] Отправка DATA №9
+[DEBUG] Задержка DATA №9 на 20 мс
+[DEBUG] Получен ACK №1
+[DEBUG] Получен ACK №1
+[DEBUG] Получен ACK №1
+[DEBUG] Тайм-аут на пакете №2
+[DEBUG] Повторная передача DATA №2
+[DEBUG] Отправка DATA №2
+[DEBUG] Задержка DATA №2 на 9 мс
+[DEBUG] Повторная передача DATA №3
+[DEBUG] Отправка DATA №3
+[DEBUG] Задержка DATA №3 на 12 мс
+[DEBUG] Повторная передача DATA №4
+[DEBUG] Отправка DATA №4
+[DEBUG] Задержка DATA №4 на 10 мс
+[DEBUG] Повторная передача DATA №5
+[DEBUG] Отправка DATA №5
+[DEBUG] Задержка DATA №5 на 9 мс
+[DEBUG] Повторная передача DATA №6
+[DEBUG] Отправка DATA №6
+[DEBUG] Задержка DATA №6 на 12 мс
+[DEBUG] Повторная передача DATA №7
+[DEBUG] Отправка DATA №7
+[DEBUG] Симулирована потеря DATA №7
+[DEBUG] Повторная передача DATA №8
+[DEBUG] Отправка DATA №8
+[DEBUG] Симулирована потеря DATA №8
+[DEBUG] Повторная передача DATA №9
+[DEBUG] Отправка DATA №9
+[DEBUG] Задержка DATA №9 на 19 мс
+[DEBUG] Получен ACK №2
+[DEBUG] Отправка DATA №10
+[DEBUG] Задержка DATA №10 на 16 мс
+[DEBUG] Получен ACK №2
+[DEBUG] Получен ACK №2
+[DEBUG] Получен ACK №3
+Прогресс: 12% (3072/24576 байт)
+[DEBUG] Отправка DATA №11
+[DEBUG] Получен ACK №3
+[DEBUG] Получен ACK №3
+[DEBUG] Получен ACK №3
+[DEBUG] Получен ACK №3
+[DEBUG] Тайм-аут на пакете №4
+[DEBUG] Повторная передача DATA №4
+[DEBUG] Отправка DATA №4
+[DEBUG] Задержка DATA №4 на 14 мс
+[DEBUG] Повторная передача DATA №5
+[DEBUG] Отправка DATA №5
+[DEBUG] Задержка DATA №5 на 14 мс
+[DEBUG] Повторная передача DATA №6
+[DEBUG] Отправка DATA №6
+[DEBUG] Задержка DATA №6 на 10 мс
+[DEBUG] Повторная передача DATA №7
+[DEBUG] Отправка DATA №7
+[DEBUG] Симулирована потеря DATA №7
+[DEBUG] Повторная передача DATA №8
+[DEBUG] Отправка DATA №8
+[DEBUG] Задержка DATA №8 на 8 мс
+[DEBUG] Повторная передача DATA №9
+[DEBUG] Отправка DATA №9
+[DEBUG] Симулирована потеря DATA №9
+[DEBUG] Повторная передача DATA №10
+[DEBUG] Отправка DATA №10
+[DEBUG] Задержка DATA №10 на 6 мс
+[DEBUG] Повторная передача DATA №11
+[DEBUG] Отправка DATA №11
+[DEBUG] Задержка DATA №11 на 4 мс
+[DEBUG] Получен ACK №3
+[DEBUG] Получен ACK №3
+[DEBUG] Получен ACK №5
+Прогресс: 20% (5120/24576 байт)
+[DEBUG] Отправка DATA №12
+[DEBUG] Задержка DATA №12 на 3 мс
+[DEBUG] Отправка DATA №13
+[DEBUG] Задержка DATA №13 на 17 мс
+[DEBUG] Получен ACK №5
+[DEBUG] Тайм-аут на пакете №6
+[DEBUG] Повторная передача DATA №6
+[DEBUG] Отправка DATA №6
+[DEBUG] Задержка DATA №6 на 19 мс
+[DEBUG] Повторная передача DATA №7
+[DEBUG] Отправка DATA №7
+[DEBUG] Задержка DATA №7 на 19 мс
+[DEBUG] Повторная передача DATA №8
+[DEBUG] Отправка DATA №8
+[DEBUG] Задержка DATA №8 на 19 мс
+[DEBUG] Повторная передача DATA №9
+[DEBUG] Отправка DATA №9
+[DEBUG] Симулирована потеря DATA №9
+[DEBUG] Повторная передача DATA №10
+[DEBUG] Отправка DATA №10
+[DEBUG] Симулирована потеря DATA №10
+[DEBUG] Повторная передача DATA №11
+[DEBUG] Отправка DATA №11
+[DEBUG] Симулирована потеря DATA №11
+[DEBUG] Повторная передача DATA №12
+[DEBUG] Отправка DATA №12
+[DEBUG] Задержка DATA №12 на 17 мс
+[DEBUG] Повторная передача DATA №13
+[DEBUG] Отправка DATA №13
+[DEBUG] Задержка DATA №13 на 5 мс
+[DEBUG] Получен ACK №7
+[DEBUG] Отправка DATA №14
+[DEBUG] Задержка DATA №14 на 12 мс
+[DEBUG] Отправка DATA №15
+[DEBUG] Задержка DATA №15 на 5 мс
+[DEBUG] Получен ACK №6
+[DEBUG] Получен ACK №8
+Прогресс: 33% (8192/24576 байт)
+[DEBUG] Отправка DATA №16
+[DEBUG] Задержка DATA №16 на 5 мс
+[DEBUG] Получен ACK №8
+[DEBUG] Получен ACK №8
+[DEBUG] Получен ACK №8
+[DEBUG] Тайм-аут на пакете №9
+[DEBUG] Повторная передача DATA №9
+[DEBUG] Отправка DATA №9
+[DEBUG] Задержка DATA №9 на 16 мс
+[DEBUG] Повторная передача DATA №10
+[DEBUG] Отправка DATA №10
+[DEBUG] Симулирована потеря DATA №10
+[DEBUG] Повторная передача DATA №11
+[DEBUG] Отправка DATA №11
+[DEBUG] Задержка DATA №11 на 8 мс
+[DEBUG] Повторная передача DATA №12
+[DEBUG] Отправка DATA №12
+[DEBUG] Задержка DATA №12 на 4 мс
+[DEBUG] Повторная передача DATA №13
+[DEBUG] Отправка DATA №13
+[DEBUG] Симулирована потеря DATA №13
+[DEBUG] Повторная передача DATA №14
+[DEBUG] Отправка DATA №14
+[DEBUG] Задержка DATA №14 на 4 мс
+[DEBUG] Повторная передача DATA №15
+[DEBUG] Отправка DATA №15
+[DEBUG] Задержка DATA №15 на 15 мс
+[DEBUG] Повторная передача DATA №16
+[DEBUG] Отправка DATA №16
+[DEBUG] Задержка DATA №16 на 12 мс
+[DEBUG] Получен ACK №8
+[DEBUG] Получен ACK №8
+[DEBUG] Получен ACK №9
+[DEBUG] Отправка DATA №17
+[DEBUG] Задержка DATA №17 на 7 мс
+[DEBUG] Получен ACK №9
+[DEBUG] Получен ACK №9
+[DEBUG] Получен ACK №9
+[DEBUG] Тайм-аут на пакете №10
+[DEBUG] Повторная передача DATA №10
+[DEBUG] Отправка DATA №10
+[DEBUG] Симулирована потеря DATA №10
+[DEBUG] Повторная передача DATA №11
+[DEBUG] Отправка DATA №11
+[DEBUG] Задержка DATA №11 на 17 мс
+[DEBUG] Повторная передача DATA №12
+[DEBUG] Отправка DATA №12
+[DEBUG] Задержка DATA №12 на 6 мс
+[DEBUG] Повторная передача DATA №13
+[DEBUG] Отправка DATA №13
+[DEBUG] Симулирована потеря DATA №13
+[DEBUG] Повторная передача DATA №14
+[DEBUG] Отправка DATA №14
+[DEBUG] Задержка DATA №14 на 14 мс
+[DEBUG] Повторная передача DATA №15
+[DEBUG] Отправка DATA №15
+[DEBUG] Задержка DATA №15 на 15 мс
+[DEBUG] Повторная передача DATA №16
+[DEBUG] Отправка DATA №16
+[DEBUG] Задержка DATA №16 на 5 мс
+[DEBUG] Повторная передача DATA №17
+[DEBUG] Отправка DATA №17
+[DEBUG] Задержка DATA №17 на 9 мс
+[DEBUG] Получен ACK №9
+[DEBUG] Получен ACK №9
+[DEBUG] Получен ACK №9
+[DEBUG] Получен ACK №9
+[DEBUG] Получен ACK №9
+[DEBUG] Тайм-аут на пакете №10
+[DEBUG] Повторная передача DATA №10
+[DEBUG] Отправка DATA №10
+[DEBUG] Симулирована потеря DATA №10
+[DEBUG] Повторная передача DATA №11
+[DEBUG] Отправка DATA №11
+[DEBUG] Задержка DATA №11 на 17 мс
+[DEBUG] Повторная передача DATA №12
+[DEBUG] Отправка DATA №12
+[DEBUG] Задержка DATA №12 на 11 мс
+[DEBUG] Повторная передача DATA №13
+[DEBUG] Отправка DATA №13
+[DEBUG] Задержка DATA №13 на 5 мс
+[DEBUG] Повторная передача DATA №14
+[DEBUG] Отправка DATA №14
+[DEBUG] Симулирована потеря DATA №14
+[DEBUG] Повторная передача DATA №15
+[DEBUG] Отправка DATA №15
+[DEBUG] Задержка DATA №15 на 8 мс
+[DEBUG] Повторная передача DATA №16
+[DEBUG] Отправка DATA №16
+[DEBUG] Симулирована потеря DATA №16
+[DEBUG] Повторная передача DATA №17
+[DEBUG] Отправка DATA №17
+[DEBUG] Симулирована потеря DATA №17
+[DEBUG] Получен ACK №9
+[DEBUG] Получен ACK №9
+[DEBUG] Тайм-аут на пакете №10
+[DEBUG] Повторная передача DATA №10
+[DEBUG] Отправка DATA №10
+[DEBUG] Симулирована потеря DATA №10
+[DEBUG] Повторная передача DATA №11
+[DEBUG] Отправка DATA №11
+[DEBUG] Задержка DATA №11 на 9 мс
+[DEBUG] Повторная передача DATA №12
+[DEBUG] Отправка DATA №12
+[DEBUG] Задержка DATA №12 на 10 мс
+[DEBUG] Повторная передача DATA №13
+[DEBUG] Отправка DATA №13
+[DEBUG] Задержка DATA №13 на 2 мс
+[DEBUG] Повторная передача DATA №14
+[DEBUG] Отправка DATA №14
+[DEBUG] Задержка DATA №14 на 8 мс
+[DEBUG] Повторная передача DATA №15
+[DEBUG] Отправка DATA №15
+[DEBUG] Задержка DATA №15 на 4 мс
+[DEBUG] Повторная передача DATA №16
+[DEBUG] Отправка DATA №16
+[DEBUG] Задержка DATA №16 на 1 мс
+[DEBUG] Повторная передача DATA №17
+[DEBUG] Отправка DATA №17
+[DEBUG] Задержка DATA №17 на 14 мс
+[DEBUG] Получен ACK №9
+[DEBUG] Получен ACK №9
+[DEBUG] Получен ACK №9
+[DEBUG] Получен ACK №9
+[DEBUG] Тайм-аут на пакете №10
+[DEBUG] Повторная передача DATA №10
+[DEBUG] Отправка DATA №10
+[DEBUG] Задержка DATA №10 на 19 мс
+[DEBUG] Повторная передача DATA №11
+[DEBUG] Отправка DATA №11
+[DEBUG] Задержка DATA №11 на 6 мс
+[DEBUG] Повторная передача DATA №12
+[DEBUG] Отправка DATA №12
+[DEBUG] Симулирована потеря DATA №12
+[DEBUG] Повторная передача DATA №13
+[DEBUG] Отправка DATA №13
+[DEBUG] Задержка DATA №13 на 16 мс
+[DEBUG] Повторная передача DATA №14
+[DEBUG] Отправка DATA №14
+[DEBUG] Симулирована потеря DATA №14
+[DEBUG] Повторная передача DATA №15
+[DEBUG] Отправка DATA №15
+[DEBUG] Задержка DATA №15 на 18 мс
+[DEBUG] Повторная передача DATA №16
+[DEBUG] Отправка DATA №16
+[DEBUG] Задержка DATA №16 на 16 мс
+[DEBUG] Повторная передача DATA №17
+[DEBUG] Отправка DATA №17
+[DEBUG] Задержка DATA №17 на 7 мс
+[DEBUG] Получен ACK №9
+[DEBUG] Получен ACK №9
+[DEBUG] Получен ACK №10
+Прогресс: 41% (10240/24576 байт)
+[DEBUG] Отправка DATA №18
+[DEBUG] Задержка DATA №18 на 2 мс
+[DEBUG] Получен ACK №10
+[DEBUG] Получен ACK №10
+[DEBUG] Получен ACK №10
+[DEBUG] Получен ACK №10
+[DEBUG] Тайм-аут на пакете №11
+[DEBUG] Повторная передача DATA №11
+[DEBUG] Отправка DATA №11
+[DEBUG] Задержка DATA №11 на 13 мс
+[DEBUG] Повторная передача DATA №12
+[DEBUG] Отправка DATA №12
+[DEBUG] Симулирована потеря DATA №12
+[DEBUG] Повторная передача DATA №13
+[DEBUG] Отправка DATA №13
+[DEBUG] Задержка DATA №13 на 18 мс
+[DEBUG] Повторная передача DATA №14
+[DEBUG] Отправка DATA №14
+[DEBUG] Симулирована потеря DATA №14
+[DEBUG] Повторная передача DATA №15
+[DEBUG] Отправка DATA №15
+[DEBUG] Задержка DATA №15 на 11 мс
+[DEBUG] Повторная передача DATA №16
+[DEBUG] Отправка DATA №16
+[DEBUG] Задержка DATA №16 на 4 мс
+[DEBUG] Повторная передача DATA №17
+[DEBUG] Отправка DATA №17
+[DEBUG] Симулирована потеря DATA №17
+[DEBUG] Повторная передача DATA №18
+[DEBUG] Отправка DATA №18
+[DEBUG] Задержка DATA №18 на 5 мс
+[DEBUG] Получен ACK №10
+[DEBUG] Получен ACK №10
+[DEBUG] Получен ACK №11
+[DEBUG] Отправка DATA №19
+[DEBUG] Симулирована потеря DATA №19
+[DEBUG] Получен ACK №11
+[DEBUG] Тайм-аут на пакете №12
+[DEBUG] Повторная передача DATA №12
+[DEBUG] Отправка DATA №12
+[DEBUG] Задержка DATA №12 на 10 мс
+[DEBUG] Повторная передача DATA №13
+[DEBUG] Отправка DATA №13
+[DEBUG] Задержка DATA №13 на 8 мс
+[DEBUG] Повторная передача DATA №14
+[DEBUG] Отправка DATA №14
+[DEBUG] Симулирована потеря DATA №14
+[DEBUG] Повторная передача DATA №15
+[DEBUG] Отправка DATA №15
+[DEBUG] Задержка DATA №15 на 20 мс
+[DEBUG] Повторная передача DATA №16
+[DEBUG] Отправка DATA №16
+[DEBUG] Задержка DATA №16 на 14 мс
+[DEBUG] Повторная передача DATA №17
+[DEBUG] Отправка DATA №17
+[DEBUG] Задержка DATA №17 на 6 мс
+[DEBUG] Повторная передача DATA №18
+[DEBUG] Отправка DATA №18
+[DEBUG] Задержка DATA №18 на 20 мс
+[DEBUG] Повторная передача DATA №19
+[DEBUG] Отправка DATA №19
+[DEBUG] Задержка DATA №19 на 12 мс
+[DEBUG] Получен ACK №13
+Прогресс: 54% (13312/24576 байт)
+[DEBUG] Отправка DATA №20
+[DEBUG] Задержка DATA №20 на 8 мс
+[DEBUG] Отправка DATA №21
+[DEBUG] Симулирована потеря DATA №21
+[DEBUG] Получен ACK №12
+[DEBUG] Получен ACK №13
+[DEBUG] Получен ACK №13
+[DEBUG] Получен ACK №13
+[DEBUG] Получен ACK №13
+[DEBUG] Получен ACK №13
+[DEBUG] Получен ACK №13
+[DEBUG] Тайм-аут на пакете №14
+[DEBUG] Повторная передача DATA №14
+[DEBUG] Отправка DATA №14
+[DEBUG] Задержка DATA №14 на 19 мс
+[DEBUG] Повторная передача DATA №15
+[DEBUG] Отправка DATA №15
+[DEBUG] Задержка DATA №15 на 14 мс
+[DEBUG] Повторная передача DATA №16
+[DEBUG] Отправка DATA №16
+[DEBUG] Задержка DATA №16 на 10 мс
+[DEBUG] Повторная передача DATA №17
+[DEBUG] Отправка DATA №17
+[DEBUG] Задержка DATA №17 на 11 мс
+[DEBUG] Повторная передача DATA №18
+[DEBUG] Отправка DATA №18
+[DEBUG] Задержка DATA №18 на 14 мс
+[DEBUG] Повторная передача DATA №19
+[DEBUG] Отправка DATA №19
+[DEBUG] Задержка DATA №19 на 7 мс
+[DEBUG] Повторная передача DATA №20
+[DEBUG] Отправка DATA №20
+[DEBUG] Задержка DATA №20 на 15 мс
+[DEBUG] Повторная передача DATA №21
+[DEBUG] Отправка DATA №21
+[DEBUG] Задержка DATA №21 на 9 мс
+[DEBUG] Получен ACK №13
+[DEBUG] Получен ACK №13
+[DEBUG] Получен ACK №13
+[DEBUG] Получен ACK №14
+[DEBUG] Отправка DATA №22
+[DEBUG] Задержка DATA №22 на 13 мс
+[DEBUG] Получен ACK №15
+Прогресс: 62% (15360/24576 байт)
+[DEBUG] Отправка DATA №23
+[DEBUG] Задержка DATA №23 на 17 мс
+[DEBUG] Получен ACK №15
+[DEBUG] Получен ACK №15
+[DEBUG] Получен ACK №15
+[DEBUG] Тайм-аут на пакете №16
+[DEBUG] Повторная передача DATA №16
+[DEBUG] Отправка DATA №16
+[DEBUG] Задержка DATA №16 на 17 мс
+[DEBUG] Повторная передача DATA №17
+[DEBUG] Отправка DATA №17
+[DEBUG] Задержка DATA №17 на 10 мс
+[DEBUG] Повторная передача DATA №18
+[DEBUG] Отправка DATA №18
+[DEBUG] Повторная передача DATA №19
+[DEBUG] Отправка DATA №19
+[DEBUG] Задержка DATA №19 на 6 мс
+[DEBUG] Повторная передача DATA №20
+[DEBUG] Отправка DATA №20
+[DEBUG] Повторная передача DATA №21
+[DEBUG] Отправка DATA №21
+[DEBUG] Задержка DATA №21 на 16 мс
+[DEBUG] Повторная передача DATA №22
+[DEBUG] Отправка DATA №22
+[DEBUG] Задержка DATA №22 на 13 мс
+[DEBUG] Повторная передача DATA №23
+[DEBUG] Отправка DATA №23
+[DEBUG] Симулирована потеря DATA №23
+[DEBUG] Получен ACK №15
+[DEBUG] Получен ACK №15
+[DEBUG] Получен ACK №15
+[DEBUG] Получен ACK №16
+[DEBUG] Отправка DATA №24
+[DEBUG] Задержка DATA №24 на 8 мс
+[DEBUG] Получен ACK №16
+[DEBUG] Получен ACK №16
+[DEBUG] Получен ACK №16
+[DEBUG] Тайм-аут на пакете №17
+[DEBUG] Повторная передача DATA №17
+[DEBUG] Отправка DATA №17
+[DEBUG] Задержка DATA №17 на 19 мс
+[DEBUG] Повторная передача DATA №18
+[DEBUG] Отправка DATA №18
+[DEBUG] Симулирована потеря DATA №18
+[DEBUG] Повторная передача DATA №19
+[DEBUG] Отправка DATA №19
+[DEBUG] Задержка DATA №19 на 15 мс
+[DEBUG] Повторная передача DATA №20
+[DEBUG] Отправка DATA №20
+[DEBUG] Задержка DATA №20 на 19 мс
+[DEBUG] Повторная передача DATA №21
+[DEBUG] Отправка DATA №21
+[DEBUG] Задержка DATA №21 на 14 мс
+[DEBUG] Повторная передача DATA №22
+[DEBUG] Отправка DATA №22
+[DEBUG] Задержка DATA №22 на 13 мс
+[DEBUG] Повторная передача DATA №23
+[DEBUG] Отправка DATA №23
+[DEBUG] Задержка DATA №23 на 20 мс
+[DEBUG] Повторная передача DATA №24
+[DEBUG] Отправка DATA №24
+[DEBUG] Задержка DATA №24 на 11 мс
+[DEBUG] Получен ACK №17
+Прогресс: 70% (17408/24576 байт)
+[DEBUG] Получен ACK №17
+[DEBUG] Получен ACK №17
+[DEBUG] Получен ACK №17
+[DEBUG] Получен ACK №17
+[DEBUG] Тайм-аут на пакете №18
+[DEBUG] Повторная передача DATA №18
+[DEBUG] Отправка DATA №18
+[DEBUG] Задержка DATA №18 на 20 мс
+[DEBUG] Повторная передача DATA №19
+[DEBUG] Отправка DATA №19
+[DEBUG] Задержка DATA №19 на 18 мс
+[DEBUG] Повторная передача DATA №20
+[DEBUG] Отправка DATA №20
+[DEBUG] Задержка DATA №20 на 18 мс
+[DEBUG] Повторная передача DATA №21
+[DEBUG] Отправка DATA №21
+[DEBUG] Симулирована потеря DATA №21
+[DEBUG] Повторная передача DATA №22
+[DEBUG] Отправка DATA №22
+[DEBUG] Задержка DATA №22 на 7 мс
+[DEBUG] Повторная передача DATA №23
+[DEBUG] Отправка DATA №23
+[DEBUG] Задержка DATA №23 на 17 мс
+[DEBUG] Повторная передача DATA №24
+[DEBUG] Отправка DATA №24
+[DEBUG] Задержка DATA №24 на 18 мс
+[DEBUG] Получен ACK №17
+[DEBUG] Получен ACK №18
+[DEBUG] Получен ACK №19
+[DEBUG] Получен ACK №20
+Прогресс: 83% (20480/24576 байт)
+[DEBUG] Тайм-аут на пакете №21
+[DEBUG] Повторная передача DATA №21
+[DEBUG] Отправка DATA №21
+[DEBUG] Задержка DATA №21 на 18 мс
+[DEBUG] Повторная передача DATA №22
+[DEBUG] Отправка DATA №22
+[DEBUG] Задержка DATA №22 на 1 мс
+[DEBUG] Повторная передача DATA №23
+[DEBUG] Отправка DATA №23
+[DEBUG] Симулирована потеря DATA №23
+[DEBUG] Повторная передача DATA №24
+[DEBUG] Отправка DATA №24
+[DEBUG] Задержка DATA №24 на 14 мс
+[DEBUG] Получен ACK №20
+[DEBUG] Получен ACK №21
+[DEBUG] Получен ACK №21
+[DEBUG] Тайм-аут на пакете №22
+[DEBUG] Повторная передача DATA №22
+[DEBUG] Отправка DATA №22
+[DEBUG] Повторная передача DATA №23
+[DEBUG] Отправка DATA №23
+[DEBUG] Симулирована потеря DATA №23
+[DEBUG] Повторная передача DATA №24
+[DEBUG] Отправка DATA №24
+[DEBUG] Задержка DATA №24 на 20 мс
+[DEBUG] Получен ACK №22
+Прогресс: 91% (22528/24576 байт)
+[DEBUG] Получен ACK №22
+[DEBUG] Тайм-аут на пакете №23
+[DEBUG] Повторная передача DATA №23
+[DEBUG] Отправка DATA №23
+[DEBUG] Задержка DATA №23 на 3 мс
+[DEBUG] Повторная передача DATA №24
+[DEBUG] Отправка DATA №24
+[DEBUG] Задержка DATA №24 на 10 мс
+[DEBUG] Получен ACK №23
+[DEBUG] Тайм-аут на пакете №24
+[DEBUG] Повторная передача DATA №24
+[DEBUG] Отправка DATA №24
+[DEBUG] Задержка DATA №24 на 13 мс
+[DEBUG] Получен ACK №24
+Прогресс: 100% (24576/24576 байт)
+[DEBUG] Отправка FIN №25
+[DEBUG] Задержка FIN №25 на 3 мс
+[DEBUG] Тайм-аут на пакете №25 (FIN)
+[DEBUG] Отправка FIN №25
+[DEBUG] Симулирована потеря FIN №25
+[DEBUG] Тайм-аут на пакете №25 (FIN)
+[DEBUG] Отправка FIN №25
+[DEBUG] Задержка FIN №25 на 6 мс
+[DEBUG] Получен FIN-ACK №25
+Итог: 24576 байт; 3.14 с; 0.01 МиБ/с; потери=24.20% (38/157); повторы=129; тайм-ауты=21; ACK=94

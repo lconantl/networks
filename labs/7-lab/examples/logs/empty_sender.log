@@ -1,0 +1,4 @@
+$ /mnt/data/rdtp_build/rdt_sender 127.0.0.1 37654 examples/empty_input.bin
+Отправитель: /mnt/data/rdtp_submission/7-lab/examples/empty_input.bin, размер 0 байт, пакетов 0
+Прогресс: 100% (0/0 байт)
+Итог: 0 байт; 0.00 с; 0.00 МиБ/с; потери=0.00% (0/2); повторы=0; тайм-ауты=0; ACK=0

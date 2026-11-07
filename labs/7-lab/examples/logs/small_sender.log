@@ -1,0 +1,4 @@
+$ /mnt/data/rdtp_build/rdt_sender 127.0.0.1 37651 examples/small_input.txt
+Отправитель: /mnt/data/rdtp_submission/7-lab/examples/small_input.txt, размер 725 байт, пакетов 1
+Прогресс: 100% (725/725 байт)
+Итог: 725 байт; 0.00 с; 0.68 МиБ/с; потери=0.00% (0/3); повторы=0; тайм-ауты=0; ACK=1
