@@ -7,7 +7,7 @@ cmake -S rdtp -B 7-lab/build -DCMAKE_BUILD_TYPE=Release
 cmake --build 7-lab/build -j
 ```
 
-## Небольшой файл
+### Небольшой файл
 
 В терминале 1:
 
@@ -22,7 +22,7 @@ cmake --build 7-lab/build -j
 cmp 7-lab/examples/small_input.txt small_received.txt
 ```
 
-## Большой файл (1 МиБ)
+### Большой файл
 
 В терминале 1:
 
@@ -38,7 +38,7 @@ sha256sum 7-lab/examples/large_input.bin large_received.bin
 cmp 7-lab/examples/large_input.bin large_received.bin
 ```
 
-## Передача с потерями DATA и ACK
+### Передача с потерями DATA и ACK
 
 В терминале 1:
 
@@ -53,6 +53,10 @@ cmp 7-lab/examples/large_input.bin large_received.bin
 cmp 7-lab/examples/loss_input.bin loss_received.bin
 ```
 
-На разных компьютерах и под разной нагрузкой количество тайм-аутов и время могут отличаться даже при одинаковом `--seed` из-за планирования процессов. При больших потерях увеличьте тайм-аут или лимит повторов. Ожидание получателя после FIN задаётся `--linger-ms` (по умолчанию 2500 мс).
+На разных компьютерах и под разной нагрузкой количество тайм-аутов и время могут
+отличаться даже при одинаковом `--seed` из-за планирования процессов. У меня вот
+так и было. При больших потерях увеличьте тайм-аут или лимит повторов. Ожидание
+получателя после FIN задаётся `--linger-ms` (по умолчанию я установил 2500 мс).
 
-В `logs/` находятся реальные журналы четырёх прогонов (small/large/loss/empty), а в `logs/verification.txt` — SHA-256 входных и фактически полученных файлов.
+В `logs/` находятся реальные журналы четырёх прогонов (small/large/loss/empty),
+а в `logs/verification.txt` — SHA-256 входных и фактически полученных файлов.
