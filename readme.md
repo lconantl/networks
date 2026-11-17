@@ -11,3 +11,5 @@
 5. [Пятая лабораторная](labs/5-lab/readme.md) - Socket
 6. [Шестая лабораторная](labs/6-lab/readme.md) - DNS-resolver
 7. [Седьмая лабораторная](labs/7-lab/readme.md) - RDTP
+8. [Восьмая лабораторная](labs/8-lab/readme.md) - UDP Pinger
+9. [Девятая лабораторная](labs/9-lab/readme.md) - Web Proxy
